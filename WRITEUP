@@ -1,0 +1,23 @@
+dijkstra-c/
+├── dijkstra.c        # Core logic
+├── graph.h           # Graph data structures
+├── graph.c           # Graph-related functions
+├── main.c            # Entry point
+├── README.md         # Basic info
+
+
+Contents:
+## 📄 File: graph.h
+
+### `struct Graph* createGraph(int vertices)`
+- Creates a new graph with a specified number of vertices.
+- Returns a pointer to the allocated graph structure.
+
+---
+
+## 📄 File: dijkstra.c
+
+### `void dijkstra(struct Graph* graph, int startVertex)`
+- Implements Dijkstra's shortest path algorithm.
+- Takes a graph and a starting vertex as input.
+- Calculates the shortest path from `startVertex` to all other vertices using a priority queue approach.
